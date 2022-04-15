@@ -55,22 +55,18 @@ export class App extends React.Component {
                     </div>
                     <div className={css.gender}>
                         <span className={css.gender_title}>Gender</span>
-                        <div>
+                        <div className={css.checkbox}>
                         <CheckboxGroup options={filterOptions} 
                         value={gender}
                         onChange={this.changeFilterHandler} />
                         </div>
                     </div>
-                    <div>
-                    
-                    <span className={css.list}>
+                    <div className={css.list}>
                         <input type='checkbox' checked = {getNews} onChange={this.handleCheckbox} />
                         <span>Subscribe to the news</span>
-                    </span>
-                
                     </div>
                     <div>
-                        <button type="button">Register</button>
+                        <button className={css.button} type="button">Register</button>
                     </div>
                 </form>
             </div>
