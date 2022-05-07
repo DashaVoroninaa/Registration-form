@@ -1,0 +1,22 @@
+.container {
+    width: 300px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid #ced4da;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.close_btn {
+    height: 30px;
+    margin-top: 13px;
+    border: none;
+    border-radius: 7px;
+    background: radial-gradient(circle at center, #71b7e6, #9b59b6);
+    cursor: pointer;
+}
